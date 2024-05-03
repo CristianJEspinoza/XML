@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+	<ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><ds:Signature Id="SEF001-00044565"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>I4rdVPlwRLsQayK4MrvjBy3Ewlw=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">CWfNKi/yWUJ/nft86jRdRTVgJzAdslaVMY8HFYzoH/1XclzRW++6a6mwhT5XLUfcLRsDMe1u+yFEgxotaEfa8XjFsmeNwsxADM0RjBV23/418eOzkr1u7VJKmYaDuS+gtyZSt1XA0tk1gSdkEbFSRWrV+I9idtkVs9xOVbtZpbkI5PCymWZRzBt8rClzapLTTRkpYYJA4U7nQBvufbMFcFuQbOzU7Zdz72iBCNQFNo0mgTN/jB+jRZJOEz5ERhD+GxYTJSLeKsiDKBdV2ArLNBT1QfGd187c3BjZKqXxoHzsLOcCJL69ApEaX+hZy6v7nXz52UW/r85/6K4yiHa3lA==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>C=PE, O=OLIVOS DEL SUR S.A.C., OID.2.5.4.97=20501433501, OU=Issued by AC CAMERFIRMA PERÚ SAC ER [PE1], OU=GERENCIA, T=GERENTE GENERAL, S=LIMA - LIMA, L=LURIN, SERIALNUMBER=DNI:10874178, SN=CARCAMO PALACIOS, G=OSCAR IVAN BENITO, CN=OSCAR IVAN BENITO CARCAMO PALACIOS, E=ivancarcamo@olivosdelsur.com</X509SubjectName><X509Certificate>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</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+	<cbc:ID>F001-00044565</cbc:ID>
+	<cbc:IssueDate>2024-03-25</cbc:IssueDate>
+	<cbc:IssueTime>03:46:00</cbc:IssueTime>
+	<cbc:DueDate>2024-04-09</cbc:DueDate>
+	<cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:InvoiceTypeCode>
+	<cbc:Note languageLocaleID="1000">CUATROCIENTOS TREINTA Y TRES CON 19/100 SOLES</cbc:Note>
+	<cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyName="United Nations Economic Commission for Europe" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+	<cac:Signature>
+		<cbc:ID>SEF001-00044565</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20501433501</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[OLIVOS DEL SUR S.A.C.]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>SEF001-00044565</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20501433501</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>OLIVOS DEL SUR S.A.C.</cbc:Name>
+			</cac:PartyName>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>OLIVOS DEL SUR S.A.C.</cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">150123</cbc:ID>
+					<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+					<cbc:CitySubdivisionName>URB. LOS HUERTOS DE LURIN</cbc:CitySubdivisionName>
+					<cbc:CityName>LIMA</cbc:CityName>
+					<cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+					<cbc:District>PACHACAMAC</cbc:District>
+					<cac:AddressLine>
+						<cbc:Line>AV. LOS ROSALES NRO. 321 URB. LOS HUERTOS DE LURIN (ALT.KM.33 ANTIGUA PANAMERICANA SUR) LIMA LIMA PA</cbc:Line>
+					</cac:AddressLine>
+					<cac:Country>
+						<cbc:IdentificationCode listID="ISO 3166-1" listAgencyName="United Nations Economic Commission for Europe" listName="Country">PE</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20609699982</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>TERRANOVA TRADING S.A.C.</cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">020101</cbc:ID>
+					<cbc:CityName>HUARAZ</cbc:CityName>
+					<cbc:CountrySubentity>ANCASH</cbc:CountrySubentity>
+					<cbc:District>HUARAZ</cbc:District>
+					<cac:AddressLine>
+						<cbc:Line>JR. SIMÓN BOLIVAR NRO 993  ANCASH - HUARAZ - HUARAZ</cbc:Line>
+					</cac:AddressLine>
+					<cac:Country>
+						<cbc:IdentificationCode listID="ISO 3166-1" listAgencyName="United Nations Economic Commission for Europe" listName="Country">PE</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:DeliveryTerms>
+		<cac:DeliveryLocation>
+			<cac:Address>
+				<cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">020101</cbc:ID>
+				<cbc:CitySubdivisionName />
+				<cbc:CityName>HUARAZ</cbc:CityName>
+				<cbc:CountrySubentity>ANCASH</cbc:CountrySubentity>
+				<cbc:District>HUARAZ</cbc:District>
+				<cac:AddressLine>
+					<cbc:Line>JR. JOSE DE SUCRE 959</cbc:Line>
+				</cac:AddressLine>
+				<cac:Country>
+					<cbc:IdentificationCode listID="ISO 3166-1" listAgencyName="United Nations Economic Commission for Europe" listName="Country">PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:DeliveryLocation>
+	</cac:DeliveryTerms>
+	<cac:PaymentTerms>
+		<cbc:ID>FormaPago</cbc:ID>
+		<cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+		<cbc:Amount currencyID="PEN">433.19</cbc:Amount>
+	</cac:PaymentTerms>
+	<cac:PaymentTerms>
+		<cbc:ID>FormaPago</cbc:ID>
+		<cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+		<cbc:Amount currencyID="PEN">433.19</cbc:Amount>
+		<cbc:PaymentDueDate>2024-04-09</cbc:PaymentDueDate>
+	</cac:PaymentTerms>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="PEN">66.08</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxableAmount currencyID="PEN">367.11</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="PEN">66.08</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID />
+				<cac:TaxScheme>
+					<cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="PEN">367.11</cbc:LineExtensionAmount>
+		<cbc:TaxInclusiveAmount currencyID="PEN">433.19</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="PEN">433.19</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">6.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">33.06</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">6.5018000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">33.06</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>ACEITUNA BOTIJA SIN PEPA - SACHET x 250 GR OLIVOS DEL SUR</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>100039</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:CommodityClassification>
+				<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">0</cbc:ItemClassificationCode>
+			</cac:CommodityClassification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">5.5100000000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>2</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">6.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">33.06</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">6.5018000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">33.06</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>ACEITUNA BOTIJA EN RODAJAS - SACHET x 250 GR OLIVOS DEL SUR</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>100040</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:CommodityClassification>
+				<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">0</cbc:ItemClassificationCode>
+			</cac:CommodityClassification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">5.5100000000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>3</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">12.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">144.12</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">14.1718000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">25.94</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">144.12</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">25.94</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>ACEITUNA BOTIJA CON PEPA - DOYPACK x 850 GR OLIVOS DEL SUR</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>100088</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:CommodityClassification>
+				<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">0</cbc:ItemClassificationCode>
+			</cac:CommodityClassification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">12.0100000000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>4</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">6.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">76.26</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">14.9978000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">13.73</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">76.26</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">13.73</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>ACEITE DE OLIVA PURO - BOT x 200 ML VIDRIO OLIVOS DEL SUR</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>100018</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:CommodityClassification>
+				<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">50151513</cbc:ItemClassificationCode>
+			</cac:CommodityClassification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">12.7100000000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>5</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">3.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">36.03</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">14.1718000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">6.49</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">36.03</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">6.49</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>ALGARROBINA - BOT x 500 GR PET OLIVOS DEL SUR</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>100069</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:CommodityClassification>
+				<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">50161509</cbc:ItemClassificationCode>
+			</cac:CommodityClassification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">12.0100000000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>6</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">6.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">44.58</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">8.7674000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">8.02</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">44.58</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">8.02</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>MANTEQUILLA DE MANI CROCANTE - FRASCO x 340 GR PET OLIVOS DEL SUR</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>102386</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:CommodityClassification>
+				<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">50192402</cbc:ItemClassificationCode>
+			</cac:CommodityClassification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">7.4300000000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

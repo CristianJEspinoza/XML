@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SF007-282653-240423011435"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>PXx0ElIJrWDTZsHR8Zgo/e98Pxk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>vgd51IeeYje0uVz8TZ/CKdI377D8xTfD207ER07lRvD+yAp4Lsy52joZ91S91cV+c1gyLsTHTnsE
+kjesSlEAVHx8hvPpY0Cpoj+77slHy2GE+iDA/VrwBO4aABVoRrvROExG13Yo8zMZ9zKsVE82Kwld
+9KswL4qHqY7U+RF3B4UlLQF+je6KkcAmwDBgEno08gGNAtJq5XYvFS0fnSk9KdFE3NgFGmRSO3NN
+9Yow2y1Jk1mZYfKINSpWNoPWD+OhVnXIR7vi9SpmQpDIUnB5BG5vp99e5yafsAimQrkGco54vSx9
+8/rjrtz/72I5ntAT3zPANZaVyDh2nOX4emDITA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIJPTCCByWgAwIBAgIJeiaeuJZ03vaKMA0GCSqGSIb3DQEBCwUAMIIBIjELMAkGA1UEBhMCUEUx
+DTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExPTA7BgNVBAsMNHNlZSBjdXJyZW50IGFkZHJl
+c3MgYXQgd3d3LmNhbWVyZmlybWEuY29tLnBlL2FkZHJlc3MxMDAuBgNVBAsMJ0FDIENBTUVSRklS
+TUEgUEVSw5ogQ0VSVElGSUNBRE9TIC0gMjAxNjEUMBIGA1UEBRMLMjA1NjYzMDI0NDcxGjAYBgNV
+BGEMEU5UUlBFLTIwNTY2MzAyNDQ3MSAwHgYDVQQKDBdDQU1FUkZJUk1BIFBFUsOaIFMuQS5DLjEw
+MC4GA1UEAwwnQUMgQ0FNRVJGSVJNQSBQRVLDmiBDRVJUSUZJQ0FET1MgLSAyMDE2MB4XDTIzMDYw
+ODIyMDkxOVoXDTI2MDYwNzIyMDkxOVowggFQMSgwJgYJKoZIhvcNAQkBFhljcG9sYW5jb0Btb2xp
+dGFsaWEuY29tLnBlMSIwIAYDVQQDDBlGRUxJUEUgSkFWSUVSIE1FRElOQSBNRVpBMRYwFAYDVQQq
+DA1GRUxJUEUgSkFWSUVSMRQwEgYDVQQEDAtNRURJTkEgTUVaQTEWMBQGA1UEBRMNQ0VYOjAwMjA2
+OTAxNTENMAsGA1UEBwwETElNQTEUMBIGA1UECAwLTElNQSAtIExJTUExEjAQBgNVBAwMCUFQT0RF
+UkFETzERMA8GA1UECwwIR0VSRU5DSUExMzAxBgNVBAsMKklzc3VlZCBieSBBQyBDQU1FUkZJUk1B
+IFBFUsOaIFNBQyBFUiBbUEUxXTEUMBIGA1UEYQwLMjAxMDAwMzUxMjExFjAUBgNVBAoMDU1PTElU
+QUxJQSBTLkExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyPf/
+8X5cuSOmw/8Cs8HnKHRa60hdm67IevujPZmvaTrbyiOSvDtIrNF0Yslw6uXBa2gz5aVyNdRY4Hh7
+5eKERc9Lv4wAV1pa9Pij3NC1KYpNd8lol3P30AVwL3uAaquEuW1U4ZkRP1bSEyFgIZq4SegZztDP
+VOAXGDlGEApQVbJq20taUr/A6tnttRAcHsBzxp1mVkEgRLfnoiFhqcKjU8SokSYo7o1KrYuKM9R7
+wgEqji3YsTCEJ+GdHzUonvLBrKc7JL/We581m5WbiCeP6xZlICnPXidK/sT7ij0bXCv/s6BZgvLn
+OEcKJzq3GmTz5Bbfxn332sCPFcU+2z2ksQIDAQABo4IDQjCCAz4wDAYDVR0TAQH/BAIwADAOBgNV
+HQ8BAf8EBAMCBsAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBQacyfT
+jm+Rb/yXxnXvpE8n5PRDczCBjQYIKwYBBQUHAQEEgYAwfjBUBggrBgEFBQcwAoZIaHR0cDovL3d3
+dy5jYW1lcmZpcm1hLmNvbS9jZXJ0cy9hY19jYW1lcmZpcm1hX3BlcnVfY2VydGlmaWNhZG9zLTIw
+MTYuY3J0MCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5jYW1lcmZpcm1hLmNvbTAfBgNVHSMEGDAW
+gBQ6bmUY51bS5PMt3aV8cm3/MOGGJzCBoAYDVR0fBIGYMIGVMEigRqBEhkJodHRwOi8vY3JsLmNh
+bWVyZmlybWEuY29tL2FjX2NhbWVyZmlybWFfcGVydV9jZXJ0aWZpY2Fkb3MtMjAxNi5jcmwwSaBH
+oEWGQ2h0dHA6Ly9jcmwxLmNhbWVyZmlybWEuY29tL2FjX2NhbWVyZmlybWFfcGVydV9jZXJ0aWZp
+Y2Fkb3MtMjAxNi5jcmwwgc4GA1UdEQSBxjCBw4EZY3BvbGFuY29AbW9saXRhbGlhLmNvbS5wZaSB
+pTCBojEdMBsGCisGAQQBgYcuHgcMDUZFTElQRSBKQVZJRVIxFjAUBgorBgEEAYGHLh4IDAZNRURJ
+TkExFDASBgorBgEEAYGHLh4JDARNRVpBMVMwUQYKKwYBBAGBhy4eCgxDQ0VSVElGSUNBRE8gREUg
+UEVSU09OQSBKVVJJRElDQSAtIEFUUklCVVRPIERFIFZJTkNVTEFDSU9OIEEgRU5USURBRDAcBgNV
+HRIEFTATgRFjYUBjYW1lcmZpcm1hLmNvbTCBnAYDVR0gBIGUMIGRMIGOBgwrBgEEAYGHLh4QAAEw
+fjApBggrBgEFBQcCARYdaHR0cHM6Ly9wb2xpY3kuY2FtZXJmaXJtYS5jb20wUQYIKwYBBQUHAgIw
+RQxDQ0VSVElGSUNBRE8gREUgUEVSU09OQSBKVVJJRElDQSAtIEFUUklCVVRPIERFIFZJTkNVTEFD
+SU9OIEEgRU5USURBRDANBgkqhkiG9w0BAQsFAAOCAgEAR6/GrKlJt+Cy1o/UzY4XU4ABeTNagJyL
+rDkx1LXhRxrt+IIedf/rwMZkv8Mo84voOXOPsOw92yutqVC/QRKIF+MHZ9Chy8l6Z3kXlqIXzkDP
+E4Li5+uJIhIB3mvTkrk/uUOXpadmtwacPbSaEK5StqRmbM9DADiWWEUf1EX8/09knHT44nHBAmHv
+nGFP2jFa7Td0S3fPYgVg8rk8qKMEeBoFNwopDQM+925B/Qw6zwErqZhKpw7bgl0Cs7KLsQWFZcja
+2kMGcoKhLRKWrbsBj3zvWK4vPEomB3iGOu/FZYEXQjxmRZP7YK3DxVwyjpGkRJnL1zMuJItRtTaj
+41vwsfh+8gBKYmRCzuYT3AoKiDUnq41C7U9VLr5mzepzT8EJ/1ZDY4NnUfu2Qhx74fPKPWl0mm7f
+FTnkCPMvAeB0KpMLZ90Cm8C0IvVhILOUmzXW95FYpo15OVhUQ9M2//hIn8YYtYGOnnXUOXm2Jy+K
+wlS3PhrRRpUOExbzqWlEIuWX85kyOP3vQOoM9iwYsSHD9xuOF4JYK/REOBwhas3ZMv/pB2+lfE0F
+9YTOcaGVX6alpUS6fQXypwxVRjACbgXA7z6GNepzrj3VrScezSdVE/jj40kAoesw9d9SnOA30r6G
+hCzaatlN2kRHaFhBKmWj48bR56yWU7c5VuDel/2e1C8=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="NumSAP"><![CDATA[0311111249]]></Text>
+    <Text name="NumPedido"><![CDATA[0110017632]]></Text>
+    <Text name="GuiaRef"><![CDATA[0210234160]]></Text>
+    <Text name="CantBultos"><![CDATA[52]]></Text>
+    <Text name="FechaEntrega"><![CDATA[21-04-2024]]></Text>
+    <Text name="SerieNumero"><![CDATA[0210234160]]></Text>
+    <Text name="FechaVencimiento"><![CDATA[23-04-2024]]></Text>
+    <Text name="FormaPago"><![CDATA[ME24 - CONTADO - PAGO BANCARIO]]></Text>
+    <Text name="Vendedor"><![CDATA[JUSTO PAULINO BARRENECHEA]]></Text>
+    <Text name="DireccionDomicilio"><![CDATA[JR SIMON BOLIVAR 993-Huaraz]]></Text>
+    <Text name="DistritoDomicilio"><![CDATA[Huaraz]]></Text>
+    <Text name="CiudadDomicilio"><![CDATA[ANCASH]]></Text>
+    <Text name="DomicilioLleg"><![CDATA[AV RAYMONDI 351 - Huaraz]]></Text>
+    <Text name="DistritoLlegada"><![CDATA[Huaraz]]></Text>
+    <Text name="CiudadLleg"><![CDATA[ANCASH]]></Text>
+    <Text name="DireccionSuc"><![CDATA[AV.UNIVERSITARIA MZA. C LOTE.5 LOT.INDUSTRIAL MOLITALIA]]></Text>
+    <Text name="DistritoSuc"><![CDATA[LOS OLIVOS]]></Text>
+    <Text name="DepartamentoSuc"><![CDATA[LIMA]]></Text>
+    <Text name="CdgIntRecep"><![CDATA[0000264220]]></Text>
+    <Text name="CorreoCliente"><![CDATA[comprobantes.electronicos@terranovatrading.com.pe]]></Text>
+    <Text name="Mail2"><![CDATA[comprobantes.electronicos@terranovatrading.com.pe,]]></Text>
+    <Text name="Impresora"><![CDATA[F114]]></Text>
+    <Text name="ImpresoraTipo"><![CDATA[@ZF01@]]></Text>
+    <Text name="Incoterms"><![CDATA[/]]></Text>
+    <Text name="Embarque"><![CDATA[]]></Text>
+    <Text name="TotalKilos"><![CDATA[]]></Text>
+    <Text name="TotalVolumen"><![CDATA[0.00]]></Text>
+    <Text name="TipoMoneda"><![CDATA[]]></Text>
+    <Text name="PesoNeto"><![CDATA[0.00]]></Text>
+    <Text name="Plantilla"><![CDATA[N]]></Text>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>F007-282653</cbc:ID>
+<cbc:IssueDate>2024-04-23</cbc:IssueDate>
+<cbc:DueDate>2024-04-23</cbc:DueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:Note languageLocaleID="1000"><![CDATA[***SON: TRES MIL DOSCIENTOS SIETE Y 46/100 SOLES ***]]></cbc:Note>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:OrderReference>
+<cbc:ID><![CDATA[241002314060]]></cbc:ID>
+</cac:OrderReference>
+<cac:Signature>
+<cbc:ID>SF007-282653</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20100035121</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SF007-282653-240423011435</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20100035121</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[MOLITALIA S.A]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[MOLITALIA S.A]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[150101]]></cbc:ID>
+<cbc:AddressTypeCode>0022</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[LIMA]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[LOS OLIVOS]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[AV.UNIVERSITARIA MZA. C LOTE.5 LOT.INDUSTRIAL MOLITALIA]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20609699982</cbc:ID>
+</cac:PartyIdentification>
+<cac:PostalAddress>
+<cbc:District><![CDATA[]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[JR SIMON BOLIVAR 993-Huaraz]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[TERRANOVA TRADING SAC]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[]]></cbc:ID>
+<cac:AddressLine>
+<cbc:Line><![CDATA[JR SIMON BOLIVAR 993-Huaraz]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">489.27</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">2718.19</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">489.27</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">2718.19</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">489.27</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">3207.46</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="PEN">3207.46</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="BX">5.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">466.69</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">110.138</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.24189</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">148.91</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">615.60</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">84.00</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">466.69</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">84.00</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[CARAMELO BON AMI BISABOR 18X100X4.3GR]]></cbc:Description>
+<cbc:Description><![CDATA[CAJ]]></cbc:Description>
+<cbc:Description><![CDATA[550.69000]]></cbc:Description>
+<cbc:Description><![CDATA[615.60000]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>802759</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>50161814</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">123.12</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCode="BX">2.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">294.43</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">173.715</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.24829</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">97.25</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">391.68</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">53.00</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">294.43</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">53.00</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[COSTA  VIZZIO LATA  12 X 182 GR.]]></cbc:Description>
+<cbc:Description><![CDATA[CAJ]]></cbc:Description>
+<cbc:Description><![CDATA[347.43000]]></cbc:Description>
+<cbc:Description><![CDATA[391.68000]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>804814</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>50161813</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">195.84</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:InvoicedQuantity unitCode="BX">45.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">1957.07</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">51.3186666667</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.21213</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">526.93</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">2484.00</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">352.27</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">1957.07</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">352.27</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[GALLETA VAINIYA 20X6X32 G]]></cbc:Description>
+<cbc:Description><![CDATA[CAJ]]></cbc:Description>
+<cbc:Description><![CDATA[2309.34000]]></cbc:Description>
+<cbc:Description><![CDATA[2484.00000]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>804103</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>50181905</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">55.20</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

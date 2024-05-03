@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SF084-822177-210223110327"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>eIlmQ+KC4H/OrnocxPp3uU1Wdr8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>iaqqHoNrkQAwWXFYST4Q3FxsBR+yaKMPiGL/RSZOqt64QXiBoRTiXfeL8BmFNiWIkifo6m1SGLL6
+NiZ/SrLST9AQh6oEBlJPGKxHwsv0avttJuQLeYeE7D5GnECXr2+4rDW1UvtqiFijWmBcdqkQFmVn
+/56X3X55TpNLTliUfsIWgKYUqBgFbRyXub86mYr5G22opEkEc+es5zaoqzkwQX05cS/vchFvZF+k
+Sp6KJMeiNROlerqdRdosCZ+27B6sPe8PR88Ti3e5DRw1Kh+5dpnYqkTclDpl0D+k3p1g0Wd4XzYB
+dvhHbNc7Sb42F5QIquIRYSRy5f58fCLFzpFAog==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFTTCCBDWgAwIBAgIIXn5eDZeF8JowDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEu
+cGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcN
+MjAwMTI0MjIzNDM4WhcNMjIwMTIzMjIzNDAwWjCCASQxRTBDBgNVBAkMPEFWLiBQQVNFTyBERSBM
+QSBSRVBVQkxJQ0EgTlJPLiA1ODk1IElOVC4gMzAxIFVSQi4gTUlSQUZMT1JFUzEoMCYGCSqGSIb3
+DQEJARYZSm9zZUx1aXMuTC5aYXZhbGFAa2NjLmNvbTEkMCIGA1UEAwwbWUFNQU1PVE8gSE9OTUEg
+U0FORFJBIEtFSUtPMREwDwYDVQQFEwg0Mzc4NDI2MjEUMBIGA1UECwwLMjAxMDAxNTI5NDExITAf
+BgNVBAsMGFZhbGlkYXRlZCBieSBMbGFtYS5wZSBFUjEjMCEGA1UECgwaS0lNQkVSTFktQ0xBUksg
+UEVSVSBTLlIuTC4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAxFvCCEtg1sIiWwNI7pNL6JZB5RF6znNLZqTHzyzheOqY9nzmtolHdTaE
+5YrdyahDkk/SqnfPZV9wNEVeVwazWIm85a3WeSupDLHM1ztkHz1eE7C/morRpm2avUkMEzridAmf
+33NUHvVaYdyY3ePcZQrqXoCoJoXloWiUPqMY/do4wzH1F7SsT7xdpkJkpNXrlIDlJoxj9De0wEEi
+rGoU+WRdTbD4pFJeIqeCYRabzYi7RrWVZzYBPwQbiST1dGtCVPtkF6cexRHIW3xbKPkvO7exZEnv
+o5ckrMtx0PqLNYGSYvXQbERh0ii5xLnpLs2gI5LlttUsSSn1IvIfB5EZIwIDAQABo4IBXTCCAVkw
+DAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTAwBggrBgEFBQcB
+AQQkMCIwIAYIKwYBBQUHMAGGFGh0dHA6Ly9vY3NwLmxsYW1hLnBlMCQGA1UdEQQdMBuBGUpvc2VM
+dWlzLkwuWmF2YWxhQGtjYy5jb20wRgYDVR0gBD8wPTA7Bg0rBgEEAYOXdwABAAIBMCowKAYIKwYB
+BQUHAgEWHGh0dHBzOi8vbGxhbWEucGUvcmVwb3NpdG9yeS8wHQYDVR0lBBYwFAYIKwYBBQUHAwIG
+CCsGAQUFBwMEMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jcmwubGxhbWEucGUvbGxhbWFwZXN0
+YW5kYXJkY2EuY3JsMB0GA1UdDgQWBBQUUAWVrsy6fWY+UfusYaf4C/KBIjAOBgNVHQ8BAf8EBAMC
+BsAwDQYJKoZIhvcNAQELBQADggEBADx2q+COvxVoQk8TBRlPus5oK1K+i6cYmbWFhnWdFLNgPI7L
+WkclUzHCrEHCKgBxPyUvVmyihXO1XDIZBw6kphIYNioc+qMR/hI6GxK0YUE59QKtmCqSax1VE1om
+XIbl5hZpqvOPHlKAQeO5T55xLCR+EkbtxeekvertAB8Oa/qBu4zcVr6cKUdI1oxgi+d1XFVigoUZ
+fhWeqowsSsrKgKt2ReO0r3H9ZYjNJLixnk9AROsLuLnH1xehwgIliUu64CSS11CMNr2pAOwHN2OZ
+dKlM27YTkSiJFYVzRp9rmcEUPWk89XugfXzF8ZSDkiZZIYuUO55+i61TZf+lNnDVbSk=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="CorreoCliente"><![CDATA[comprobantes.electronicos@mistr.com.pe]]></Text>
+    <Text name="PagWeb"><![CDATA[http://asp403r.paperless.com.pe/BoletaKimberlyClark]]></Text>
+    <Text name="TipoDocRecep"><![CDATA[RUC]]></Text>
+    <Text name="Etiqueta1"><![CDATA[NUM INTERNO:]]></Text>
+    <Text name="Valor1"><![CDATA[840822177]]></Text>
+    <Text name="Etiqueta2"><![CDATA[ASIENTO CONTABLE:]]></Text>
+    <Text name="Valor2"><![CDATA[5379261]]></Text>
+    <Text name="Etiqueta3"><![CDATA[FECHA DE ENTREGA:]]></Text>
+    <Text name="Valor3"><![CDATA[2021-02-25 00:00]]></Text>
+    <Text name="Etiqueta4"><![CDATA[REP. DE VENTAS:]]></Text>
+    <Text name="Valor4"><![CDATA[GIOVANNI FIGARI /]]></Text>
+    <Text name="Etiqueta5"><![CDATA[ORDEN DE COMPRA:]]></Text>
+    <Text name="Valor5"><![CDATA[]]></Text>
+    <Text name="Etiqueta6"><![CDATA[FECHA:]]></Text>
+    <Text name="Valor6"><![CDATA[2021-02-11]]></Text>
+    <Text name="Etiqueta7"><![CDATA[NUM. PEDIDO:]]></Text>
+    <Text name="Valor7"><![CDATA[750307363]]></Text>
+    <Text name="Etiqueta8"><![CDATA[CONDICIONES DE PAGO:]]></Text>
+    <Text name="Valor8"><![CDATA[Deposito bancario adelantado]]></Text>
+    <Text name="Etiqueta9"><![CDATA[GUÍA DE REMISIÓN REMITENTE: N°]]></Text>
+    <Text name="Etiqueta10"><![CDATA[EMBARQUE]]></Text>
+    <Text name="Valor10"><![CDATA[516083562]]></Text>
+    <Text name="Etiqueta11"><![CDATA[EMPRESA]]></Text>
+    <Text name="Valor11"><![CDATA[TRUJILLO INVESTMENT SA - PATIVILCA]]></Text>
+    <Text name="Etiqueta12"><![CDATA[DIRECCION]]></Text>
+    <Text name="Valor12"><![CDATA[CAR.HUARAZ-PATIVILCA KM. 177 CAS . SAN CRISTOBAL DE MASHUA HUARAZ HUARAZ]]></Text>
+    <Text name="Etiqueta13"><![CDATA[VOLUMEN]]></Text>
+    <Text name="Valor13"><![CDATA[35.44 CD3]]></Text>
+    <Text name="Etiqueta14"><![CDATA[INCOTERM]]></Text>
+    <Text name="Valor14"><![CDATA[-]]></Text>
+    <Text name="Valor15"><![CDATA[0032 00522356]]></Text>
+    <Text name="TelRecep"><![CDATA[TEL:]]></Text>
+    <Text name="FecFactura"><![CDATA[2021-02-11]]></Text>
+    <Text name="FecVenc"><![CDATA[2021-02-23]]></Text>
+    <Text name="ValorIGV"><![CDATA[%18.00]]></Text>
+    <Text name="Motivo"><![CDATA[Venta]]></Text>
+    <Text name="RazSocTransp"><![CDATA[EMPRESA DE TRANSPORTES SILVERA & H.]]></Text>
+    <Text name="DirTransp"><![CDATA[MZ B1-A LTE21 EX FUNDO SANTA M]]></Text>
+    <Text name="RucTransp"><![CDATA[20494598583]]></Text>
+    <Text name="NomTransp"><![CDATA[CARLOS YALAN JARA AJJ768]]></Text>
+    <Text name="PlacaTransp"><![CDATA[AJJ768]]></Text>
+    <Text name="CodCliente"><![CDATA[40034078]]></Text>
+    <Text name="NombreArchivo"><![CDATA[20100152941_01_F084-00822177_20210223.txt]]></Text>
+    <Text name="PPLOrigen"><![CDATA[SHF]]></Text>
+    <Section name="MensajesAt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[Incluye descuento financiero de 2.50% ( 3.91 )]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[LÉASE CUANDO APLIQUE: PK= PAQUETES, TNE= TONELADAS CJ= CAJAS NIU=UNIDAD]]></Value>
+        </Detail>
+    </Section>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>F084-822177</cbc:ID>
+<cbc:IssueDate>2021-02-23</cbc:IssueDate>
+<cbc:IssueTime>15:59:28</cbc:IssueTime>
+<cbc:DueDate>2021-02-23</cbc:DueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:Note languageLocaleID="1000"><![CDATA[CIENTO SETENTA Y NUEVE Y 78/100 SOLES]]></cbc:Note>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SF084-822177</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20100152941</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SF084-822177-210223110327</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20100152941</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[Kimberly-Clark Peru S.R.L]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[Kimberly-Clark Peru S.R.L]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[150122]]></cbc:ID>
+<cbc:AddressTypeCode>0004</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[MIRAFLORES]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[AV. PASEO DE LA REPUBLICA NRO.5895 INT. 301 URB. MIRAFLORES]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20407077785</cbc:ID>
+</cac:PartyIdentification>
+<cac:PostalAddress>
+<cbc:District><![CDATA[]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[AV.RAYMONDI NRO.351 CONO ALUVIONICOOESTE (COSTADO DE ELEKTRA) HUARAZ - HUARAZ - HUARAZ]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[TRUJILLO INVESTMENT S.A.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[]]></cbc:ID>
+<cac:AddressLine>
+<cbc:Line><![CDATA[AV.RAYMONDI NRO.351 CONO ALUVIONICOOESTE (COSTADO DE ELEKTRA) HUARAZ - HUARAZ - HUARAZ]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:BuyerCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20407077785</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">27.42</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">152.36</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">27.42</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">152.36</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">27.42</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">179.78</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="PEN">5.49</cbc:AllowanceTotalAmount>
+<cbc:PayableAmount currencyID="PEN">179.78</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">4.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">152.36</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">44.9462</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.03</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">5.49</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">157.85</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">27.42</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">152.36</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">27.42</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[BW HUG LIMP EFECT PAQ 6X4 X16 C/RISTRA -Lot: 27022002,29022002]]></cbc:Description>
+<cbc:Description><![CDATA[3.48]]></cbc:Description>
+<cbc:Description><![CDATA[179.78]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30227421</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>46181504</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+<cac:ItemInstance>
+<cac:LotIdentification>
+<cbc:LotNumberID><![CDATA[27022002,290220]]></cbc:LotNumberID>
+</cac:LotIdentification>
+</cac:ItemInstance>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">39.4625</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

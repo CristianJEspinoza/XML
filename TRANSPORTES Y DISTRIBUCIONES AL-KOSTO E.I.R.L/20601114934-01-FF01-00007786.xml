@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><ds:Signature Id="Sign20601114934" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>UcUwb+523+Su82QE/ZTffZTKzrc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hqSiClNcqbYqVAx4KBh63H1UIOqVr8piUVQuGDw+oQpI2T7kF6XO2V8PQZiBGeYU6tKmqElmdTdl
+PxDUhh14TutM4hb4E3O0+0lE++BrqmrDu9UWa3zPfhUcCUgGc2OcCJSdoPRZqqNGldLnT0RdPkM/
+xht9o8K6K36TXpTMN4HcpbvUgZAZxBsDLmTEun/qclofC+DNYCw5nVgA0R1+aoN58IRv0Ly4QOsq
+qf/yb8NfZ0ioAWYANODdDa0n1UmAPPKLJRTsuQYjDq5i2t1ar7szHyR8MqpTALSZnQJWUNH6LzXG
+ppcddBHxaU5wA+Y2ds3yGSrtl5YC32m+7SmG6g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIrjCCBpagAwIBAgIUawfZVlvB8MMDQOtl1a0Dqc4EvMswDQYJKoZIhvcNAQELBQAwbDELMAkG
+A1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRlIElkZW50aWZpY2FjacOzbiB5
+IEVzdGFkbyBDaXZpbDEfMB0GA1UEAwwWRUNFUC1SRU5JRUMgQ0EgQ2xhc3MgMTAeFw0yMTA3Mjcx
+MzQ4NDhaFw0yNDA3MjYxMzQ4NDhaMIIBFjELMAkGA1UEBhMCUEUxFjAUBgNVBAgMDUFOQ0FTSC1I
+VUFSQVoxDzANBgNVBAcMBkhVQVJBWjEyMDAGA1UECgwpVFJBTlNQT1JURVMgWSBESVNUUklCVUNJ
+T05FUyBBTEtPU1RPIEVJUkwxGjAYBgNVBGEMEU5UUlBFLTIwNjAxMTE0OTM0MSEwHwYDVQQLDBhF
+UkVQX1NVTkFUXzIwMjEwMDAxNTYzMDYxFDASBgNVBAsMCzIwNjAxMTE0OTM0MVUwUwYDVQQDDEx8
+fFVTTyBUUklCVVRBUklPfHwgVFJBTlNQT1JURVMgWSBESVNUUklCVUNJT05FUyBBTEtPU1RPIEVJ
+UkwgQ0RUIDIwNjAxMTE0OTM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqa24FxKh
+sl5uE2e/aLqofFcM+iFeEg88pZumq5FJF8at9mQVUq77Srnyw6Yj0xhrM7GEm4opihwp/W/7Zjyu
+hLO3PXIC0BJCRcsNqkW82pV/UlxTBfygZveZ+0Urp8BSmi9ifBWpZeoc+hSapSZqirDiSdZ0J8Me
+4LSzV3w5m3E8ykWAzwD9LpFrX0NQlbo6yfttbRbeDgzy2kPx0Qmx/PMQHVRQyONYf7aEKFLyi4EW
+uKgnD4E6DXx54GrSKEtbXozePXW2TuiAKFWwPiz5Wyw7abYaUA/Crwh0tuxtTOXglP8OKnaZWOxp
+prvUHoeZ1+YXIRlVgEd02GgaISKfbQIDAQABo4IDmjCCA5YwDAYDVR0TAQH/BAIwADAfBgNVHSME
+GDAWgBRDFW7w09FrGykzQS1VrHEi0TylXTBuBggrBgEFBQcBAQRiMGAwNwYIKwYBBQUHMAKGK2h0
+dHA6Ly9jcnQucmVuaWVjLmdvYi5wZS9yb290My9jYWNsYXNzMS5jcnQwJQYIKwYBBQUHMAGGGWh0
+dHA6Ly9vY3NwLnJlbmllYy5nb2IucGUwggI3BgNVHSAEggIuMIICKjB3BhErBgEEAYKTZAIBAwEA
+ZYdoADBiMDEGCCsGAQUFBwIBFiVodHRwczovL3d3dy5yZW5pZWMuZ29iLnBlL3JlcG9zaXRvcnkv
+MC0GCCsGAQUFBwIBFiFQb2ztdGljYSBHZW5lcmFsIGRlIENlcnRpZmljYWNp824wgcQGESsGAQQB
+gpNkAgEDAQBnh2gAMIGuMDIGCCsGAQUFBwIBFiZodHRwczovL3BraS5yZW5pZWMuZ29iLnBlL3Jl
+cG9zaXRvcmlvLzB4BggrBgEFBQcCAjBsHmoARABlAGMAbABhAHIAYQBjAGkA8wBuACAAZABlACAA
+UAByAOEAYwB0AGkAYwBhAHMAIABkAGUAIABDAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuACAARQBD
+AEUAUAAtAFIARQBOAEkARQBDMIHnBhErBgEEAYKTZAIBAwEBZ4dzAzCB0TCBzgYIKwYBBQUHAgIw
+gcEegb4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAARABpAGcAaQB0AGEAbAAgAFQAcgBpAGIAdQB0
+AGEAcgBpAG8AIABwAGEAcgBhACAAQQBnAGUAbgB0AGUAIABBAHUAdABvAG0AYQB0AGkAegBhAGQA
+bwAgAEMAbABhAHMAcwAgADEALAAgAGUAbgAgAGMAdQBtAHAAbABpAG0AaQBlAG4AdABvACAAZABl
+AGwAIABEAEwAIABOALoAIAAxADMANwAwMBMGA1UdJQQMMAoGCCsGAQUFBwMEMHYGA1UdHwRvMG0w
+NKAyoDCGLmh0dHA6Ly9jcmwucmVuaWVjLmdvYi5wZS9jcmwvc2hhMi9jYWNsYXNzMS5jcmwwNaAz
+oDGGL2h0dHA6Ly9jcmwyLnJlbmllYy5nb2IucGUvY3JsL3NoYTIvY2FjbGFzczEuY3JsMB0GA1Ud
+DgQWBBRlAlJjTHxMIaklY9DnPc55or5voDAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQAD
+ggIBAF4Nxlu3lT/GjQjP9ZyExjzrQ6a8PY673d6IlU1gRcd94QQx/N3NtKLGBBw4wjlvgN8vWX6i
+5km6E8LtcfuI2qFsw19U7iEyyYjZ7eGUwmRM5m735BxJ1voOKDD5xLFTT/ZFDEMWGpPU3cGFwsdt
+SNjlN3Z1dz5hV33wFTYn3iuhVqVIH9SCoFkEeS5Fk7fIQaowHyakT3QycEXKARSr/CpcdG/A5VNO
+vOia9rpPXNxY3BIbF6oAtTGTHTvu0ReVM8Gsr2Dr2xa0NGW0IozlXX9DLu6gJwl3J8vxhbA4/x1E
+yjgb4JzDfOooo4PHAThDPqVNFDDK1Cl/aQliCMsDbE4WFq63O6FUqOo3txqFrNY8jP/tOaHSLK4O
+M11Y0xYQMwWXR645Zz32BmNxAnrqW/t+Dxw821/4pXafc2txgfaWPfTVNmDPEtWzcvwtY1xfpiL0
+Wbs5Z/lS7oEcRkHQ7C0yGJiFmF2LKGW3K5YPcDpEuT/gXiYYDhrZTJJzI4XkJpRqmizuqPh6GzHw
+ohNsVogRw/EqWqcDE3dAHGWUjTa7MW9y/6bqTlzI4jnJbQDvdoa1K0gocWm9NoK1eSqyYL6wEwC8
+lylACMq6IdN1Djp4GZrgMIKeDKxPaGGxC1UEy9Dm+4fM0ke3NXMM8c0S1kvy03oP5ApNmoQGiXwb
+pxDG
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions><cbc:UBLVersionID>2.1</cbc:UBLVersionID><cbc:CustomizationID>2.0</cbc:CustomizationID><cbc:ID>FF01-00007786</cbc:ID><cbc:IssueDate>2024-04-30</cbc:IssueDate><cbc:IssueTime>18:02:18</cbc:IssueTime><cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0101" listName="SUNAT:Identificador de Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:InvoiceTypeCode><cbc:Note languageLocaleID="1000">CUATROCIENTOS SESENTA Y DOS  Y 00/100 SOLES.</cbc:Note><cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode><cbc:LineCountNumeric>5</cbc:LineCountNumeric><cac:Signature>
+<cbc:ID>sign</cbc:ID><cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20601114934</cbc:ID></cac:PartyIdentification><cac:PartyName>
+<cbc:Name><![CDATA[TRANSPORTES Y DISTRIBUCIONES AL-KOSTO E.I.R.L]]></cbc:Name></cac:PartyName></cac:SignatoryParty><cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>sing</cbc:URI></cac:ExternalReference></cac:DigitalSignatureAttachment></cac:Signature><cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="SUNAT:Identificador de Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20601114934</cbc:ID></cac:PartyIdentification><cac:PartyName>
+<cbc:Name><![CDATA[TRANSPORTES Y DISTRIBUCIONES AL-KOSTO E.I.R.L]]></cbc:Name></cac:PartyName><cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[TRANSPORTES Y DISTRIBUCIONES AL-KOSTO E.I.R.L]]>
+</cbc:RegistrationName><cac:RegistrationAddress><cbc:ID>020101</cbc:ID><cbc:AddressTypeCode>0000</cbc:AddressTypeCode><cbc:CitySubdivisionName>NONE</cbc:CitySubdivisionName><cbc:CityName>HUARAZ</cbc:CityName><cbc:CountrySubentity>ANCASH</cbc:CountrySubentity><cbc:District>HUARAZ</cbc:District><cac:AddressLine>
+<cbc:Line><![CDATA[JR. SANTA ROSA N° 1324 - HUARAZ - HUARAZ]]></cbc:Line></cac:AddressLine><cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode></cac:Country></cac:RegistrationAddress></cac:PartyLegalEntity></cac:Party></cac:AccountingSupplierParty><cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="SUNAT:Identificador de Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20609699982</cbc:ID></cac:PartyIdentification><cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[TERRANOVA TRADING SAC]]></cbc:RegistrationName></cac:PartyLegalEntity></cac:Party></cac:AccountingCustomerParty><cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID><cbc:PaymentMeansID>Contado</cbc:PaymentMeansID></cac:PaymentTerms><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">70.47</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">391.53</cbc:TaxableAmount><cbc:TaxAmount currencyID="PEN">70.47</cbc:TaxAmount><cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153">1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode></cac:TaxScheme></cac:TaxCategory></cac:TaxSubtotal></cac:TaxTotal><cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">391.53</cbc:LineExtensionAmount><cbc:TaxInclusiveAmount currencyID="PEN">462.00</cbc:TaxInclusiveAmount><cbc:PayableAmount currencyID="PEN">462.00</cbc:PayableAmount></cac:LegalMonetaryTotal><cac:InvoiceLine>
+<cbc:ID>1</cbc:ID><cbc:InvoicedQuantity unitCode="NIU">2</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID="PEN">12.71</cbc:LineExtensionAmount><cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">7.50</cbc:PriceAmount><cbc:PriceTypeCode>01</cbc:PriceTypeCode></cac:AlternativeConditionPrice></cac:PricingReference><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">2.29</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">12.71</cbc:TaxableAmount><cbc:TaxAmount currencyID="PEN">2.29</cbc:TaxAmount><cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent><cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="SUNAT:Codigo de Tipo de Afectación del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode><cac:TaxScheme>
+<cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5153" schemeName="Tax Scheme Identifier">1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode></cac:TaxScheme></cac:TaxCategory></cac:TaxSubtotal></cac:TaxTotal><cac:Item>
+<cbc:Description><![CDATA[GUSTOCHO GUSTOZZI RELLENO - TIRA X 6UNDS CHOCOLATE T-37gr]]></cbc:Description><cac:SellersItemIdentification>
+<cbc:ID>133412710000</cbc:ID></cac:SellersItemIdentification></cac:Item><cac:Price>
+<cbc:PriceAmount currencyID="PEN">6.36</cbc:PriceAmount></cac:Price></cac:InvoiceLine><cac:InvoiceLine>
+<cbc:ID>2</cbc:ID><cbc:InvoicedQuantity unitCode="NIU">15</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID="PEN">114.41</cbc:LineExtensionAmount><cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">9.00</cbc:PriceAmount><cbc:PriceTypeCode>01</cbc:PriceTypeCode></cac:AlternativeConditionPrice></cac:PricingReference><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">20.59</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">114.41</cbc:TaxableAmount><cbc:TaxAmount currencyID="PEN">20.59</cbc:TaxAmount><cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent><cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="SUNAT:Codigo de Tipo de Afectación del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode><cac:TaxScheme>
+<cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5153" schemeName="Tax Scheme Identifier">1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode></cac:TaxScheme></cac:TaxCategory></cac:TaxSubtotal></cac:TaxTotal><cac:Item>
+<cbc:Description><![CDATA[ALFAJORES TORRINO DISPLAY X 18UNDS MANJAR T-700GR]]></cbc:Description><cac:SellersItemIdentification>
+<cbc:ID>138217010000</cbc:ID></cac:SellersItemIdentification></cac:Item><cac:Price>
+<cbc:PriceAmount currencyID="PEN">7.63</cbc:PriceAmount></cac:Price></cac:InvoiceLine><cac:InvoiceLine>
+<cbc:ID>3</cbc:ID><cbc:InvoicedQuantity unitCode="NIU">54</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID="PEN">68.64</cbc:LineExtensionAmount><cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">1.50</cbc:PriceAmount><cbc:PriceTypeCode>01</cbc:PriceTypeCode></cac:AlternativeConditionPrice></cac:PricingReference><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">12.36</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">68.64</cbc:TaxableAmount><cbc:TaxAmount currencyID="PEN">12.36</cbc:TaxAmount><cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent><cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="SUNAT:Codigo de Tipo de Afectación del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode><cac:TaxScheme>
+<cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5153" schemeName="Tax Scheme Identifier">1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode></cac:TaxScheme></cac:TaxCategory></cac:TaxSubtotal></cac:TaxTotal><cac:Item>
+<cbc:Description><![CDATA[ROSKITAS DUANI CROCANTES CON AJONJOLI T-90gr]]></cbc:Description><cac:SellersItemIdentification>
+<cbc:ID>291652221000</cbc:ID></cac:SellersItemIdentification></cac:Item><cac:Price>
+<cbc:PriceAmount currencyID="PEN">1.27</cbc:PriceAmount></cac:Price></cac:InvoiceLine><cac:InvoiceLine>
+<cbc:ID>4</cbc:ID><cbc:InvoicedQuantity unitCode="NIU">84</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID="PEN">88.98</cbc:LineExtensionAmount><cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">1.25</cbc:PriceAmount><cbc:PriceTypeCode>01</cbc:PriceTypeCode></cac:AlternativeConditionPrice></cac:PricingReference><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">16.02</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">88.98</cbc:TaxableAmount><cbc:TaxAmount currencyID="PEN">16.02</cbc:TaxAmount><cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent><cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="SUNAT:Codigo de Tipo de Afectación del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode><cac:TaxScheme>
+<cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5153" schemeName="Tax Scheme Identifier">1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode></cac:TaxScheme></cac:TaxCategory></cac:TaxSubtotal></cac:TaxTotal><cac:Item>
+<cbc:Description><![CDATA[GALLETAS CROCANTES DUANI SOBRE X 24 UNDS DULCE T-50GR]]></cbc:Description><cac:SellersItemIdentification>
+<cbc:ID>151672221000</cbc:ID></cac:SellersItemIdentification></cac:Item><cac:Price>
+<cbc:PriceAmount currencyID="PEN">1.06</cbc:PriceAmount></cac:Price></cac:InvoiceLine><cac:InvoiceLine>
+<cbc:ID>5</cbc:ID><cbc:InvoicedQuantity unitCode="NIU">84</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID="PEN">106.78</cbc:LineExtensionAmount><cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">1.50</cbc:PriceAmount><cbc:PriceTypeCode>01</cbc:PriceTypeCode></cac:AlternativeConditionPrice></cac:PricingReference><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">19.22</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">106.78</cbc:TaxableAmount><cbc:TaxAmount currencyID="PEN">19.22</cbc:TaxAmount><cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent><cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="SUNAT:Codigo de Tipo de Afectación del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode><cac:TaxScheme>
+<cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5153" schemeName="Tax Scheme Identifier">1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode></cac:TaxScheme></cac:TaxCategory></cac:TaxSubtotal></cac:TaxTotal><cac:Item>
+<cbc:Description><![CDATA[PALITOS CROCANTES DUANI CRISINOS CON AJONJOLI T-90gr]]></cbc:Description><cac:SellersItemIdentification>
+<cbc:ID>296322210000</cbc:ID></cac:SellersItemIdentification></cac:Item><cac:Price>
+<cbc:PriceAmount currencyID="PEN">1.27</cbc:PriceAmount></cac:Price></cac:InvoiceLine></Invoice>

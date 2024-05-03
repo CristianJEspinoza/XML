@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?><DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <ExtraContent>
+                    <ExtraData tag="CustomerMail" value="comprobantes.electronicos@terranovatrading.com.pe"/>
+                    <ExtraData tag="METADATA" value="L6P~0971224913~398~2024~01~V3~AV. 1ERO MAYO S/N~ÁNCASH-HUAYLAS-CARAZ~F2~"/>
+                </ExtraContent>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    <ext:UBLExtension><ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature86178"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>J1WAsa4XeuLBMz0r2bLZIame7vc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ew+pUZk7hLkKoA99mi2CSsiW+riNTDvYDxFPcjaNo1zxokY5UD9uij7r1T/bZ2BHZTIT2IqwY1dkM+CqwKBjUcFwho78KvbXxk4jTT/PPWW0QsP3nP7A3XxEdHWMQt/YpicgxVwaSQxywzW1wC/wnHfFj255mDKni43NUHhZnarSNAM1KkSPtGfbn/UFQI4LgWgAwG2HiluyTQ5TRDAmP9InoU9du76KOAu+0qN6POW9pcvTP4+0mSx2qsD5rGc/NmGPJj1ldX+8ZS3B+InuUtpDQI2H8WfpeM29/deyP79XcX5uIsRRz6fYh4LrbMCnuNo/hKODopA9ksF/iS0Zgg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>CN=SOFTWARE DE FACTURACION ELECTRONICA</ds:X509SubjectName><ds:X509Certificate>MIIFdjCCBF6gAwIBAgIIOjVy1I0oZ6UwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjMwNzEzMjExMjA1WhcNMjYwNzEyMjExMjAwWjCCARsxNDAyBgNVBAkMK0pSLiBQQUNIQUNVVEVDIE5STy4gMTMxNSBVUkIuIFNBTlRBIEJFQVRSSVoxIzAhBgkqhkiG9w0BCQEWFGFzYW5jaGV6QGRpZ2lmbG93LnBlMSwwKgYDVQQDDCNTT0ZUV0FSRSBERSBGQUNUVVJBQ0lPTiBFTEVDVFJPTklDQTEsMCoGA1UECwwjRkFDVFVSQSBFTEVDVFJPTklDQSBSVUMgMjA2MDA5NDgxMzExLjAsBgNVBAsMJVZhbGlkYWRvIHBvciBBQkMgSURFTlRJREFEIERJR0lUQUwgRVIxFjAUBgNVBAoMDURJR0lGTE9XIFMuQS4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhwK64Bie544wfna1KUTa3xm0dsqveHNNA56pb4K3w1NWYoXbHnp7DZZiw3/Z0K7R5sK4+NNQc4KL2QjS/P6sLRFy0MXvYSm8dGb8EraxkqB/iTQnjWhUy7QFiEvdwlJO8pHFT1IUcSe/FERhFYB9Bikd9Mqmnuj0FQNfxZCfgYBMBBBskp9dq99xgfx6mEMZh1o0Ak1IWaodMmZhXmUwhoAPwz/wQaM6xI5YJ6dxGolQn7IgnPxajSfJ3F8n4U4sUxM83FPoiX644bC382xJaoXjOo5JzD+43ECT6Siz4vyuc13TYechpkiHNW1kV5UZ5k7LYE3NrWUFQ99h6ZFNEQIDAQABo4IBjzCCAYswDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTAfBgNVHREEGDAWgRRhc2FuY2hlekBkaWdpZmxvdy5wZTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFEhTns1ghoPCv4WWO0DC2/OsMIs1MA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAGEAUX7VQO6yyA9a4UnOL8I3wneaEkjPOW4xj1O5PNn7VwHvWVLEqjSa8yGeTll63/bD3zAUXRML3bI0DvebdhO5coGddqqjsJI6Q1/cIPPXt/VURRsGcSq1JRyIdNam8S499HMvj5DMEZ9h7+wnlrinhigszGdLjQZ+90sJgbphQCcOIXDvvVewKewiy8tLTykOr8S1SUBCOxRqGszpAvgQB/B+lrMAqP5/UkBG90iIAeRCAvxEPtR0hNJ12WXm8CmnmtebxiomhXnRTquLDBiRD6R1zKqE3S3roB+6TQIvEs6X+SOE9s7uPcRHgL9FbMnMROwv8/S+Ev2YANRthqA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>2.0</cbc:CustomizationID>
+    <cbc:ID>T001-00022543</cbc:ID>
+    <cbc:IssueDate>2024-04-24</cbc:IssueDate>
+    <cbc:IssueTime>11:00:20</cbc:IssueTime>
+    <cbc:DespatchAdviceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">09</cbc:DespatchAdviceTypeCode>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID>F100-00449131</cbc:ID>
+        <cbc:DocumentTypeCode listAgencyName="PE:SUNAT" listName="Documento relacionado al transporte" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo61">01</cbc:DocumentTypeCode>
+        <cac:IssuerParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100127165</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:IssuerParty>
+    </cac:AdditionalDocumentReference>
+    <cac:Signature><cbc:ID>Signature86178</cbc:ID><cac:SignatoryParty><cac:PartyIdentification><cbc:ID>20100127165</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name>PROCTER &amp; GAMBLE PERU S.R.L</cbc:Name></cac:PartyName></cac:SignatoryParty><cac:DigitalSignatureAttachment><cac:ExternalReference><cbc:URI>#Signature86178</cbc:URI></cac:ExternalReference></cac:DigitalSignatureAttachment></cac:Signature><cac:DespatchSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100127165</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Procter &amp; Gamble Peru S.R.L.</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:DeliveryCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20609699982</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>TERRANOVA</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:Shipment>
+        <cbc:ID>SUNAT_Envio</cbc:ID>
+        <cbc:HandlingCode listAgencyName="PE:SUNAT" listName="Motivo de traslado" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20">01</cbc:HandlingCode>
+        <cbc:GrossWeightMeasure unitCode="KGM">970.473</cbc:GrossWeightMeasure>
+        <cbc:TotalTransportHandlingUnitQuantity>154</cbc:TotalTransportHandlingUnitQuantity>
+        <cbc:SpecialInstructions>SUNAT_Envio_IndicadorVehiculoConductoresTransp</cbc:SpecialInstructions>
+        <cac:ShipmentStage>
+            <cbc:TransportModeCode listAgencyName="PE:SUNAT" listName="Modalidad de traslado" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18">01</cbc:TransportModeCode>
+            <cac:TransitPeriod>
+                <cbc:StartDate>2024-04-24</cbc:StartDate>
+            </cac:TransitPeriod>
+            <cac:CarrierParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20470987856</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>EMPRESA DE TRANSPORTES HERMANOS</cbc:RegistrationName>
+                    <cbc:CompanyID schemeAgencyName="PE:SUNAT" schemeName="Entidad Autorizadora">151738294</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+            </cac:CarrierParty>
+            <cac:DriverPerson>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="1" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">46102176</cbc:ID>
+                <cbc:FirstName>DENAYTON</cbc:FirstName>
+                <cbc:FamilyName>LOPEZ</cbc:FamilyName>
+                <cbc:JobTitle>Principal</cbc:JobTitle>
+                <cac:IdentityDocumentReference>
+                    <cbc:ID>Q46102176</cbc:ID>
+                </cac:IdentityDocumentReference>
+            </cac:DriverPerson>
+        </cac:ShipmentStage>
+        <cac:Delivery>
+            <cac:DeliveryAddress>
+                <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">021201</cbc:ID>
+                <cac:AddressLine>
+                    <cbc:Line>AV. 1ERO MAYO S/NÁNCASH-HUAYLAS-CARAZ</cbc:Line>
+                </cac:AddressLine>
+            </cac:DeliveryAddress>
+            <cac:Despatch>
+                <cac:DespatchAddress>
+                    <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150101</cbc:ID>
+                    <cac:AddressLine>
+                        <cbc:Line>Av. Universitaria 396 -ZONA INDUSTRIAL LIMA-LIMA</cbc:Line>
+                    </cac:AddressLine>
+                </cac:DespatchAddress>
+            </cac:Despatch>
+        </cac:Delivery>
+        <cac:TransportHandlingUnit>
+            <cac:TransportEquipment>
+                <cbc:ID>A5T993</cbc:ID>
+                <cac:ApplicableTransportMeans>
+                    <cbc:RegistrationNationalityID>0151815CNG</cbc:RegistrationNationalityID>
+                </cac:ApplicableTransportMeans>
+            </cac:TransportEquipment>
+        </cac:TransportHandlingUnit>
+    </cac:Shipment>
+    <cac:DespatchLine>
+        <cbc:ID>0001</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0001</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE 2IN1 CUIDADO CLASICO 700MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0002</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0002</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE 2IN1 LISO SEDOSO 400MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0003</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0003</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ACE LIMON PWD 4000GRX4IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0004</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0004</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ACE REGULAR PWD 2000GRX8IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0005</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0005</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ACE REGULAR PWD 5800GRX3IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0006</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0006</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ACE REGULAR PWD 8000GRX1IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0007</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0007</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE AC CONTROL CAIDA 400MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0008</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0008</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE CN RESTAURACION 400MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0009</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0009</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE AC RIZOS DEFINIDOS 400MLx12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0010</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0010</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ALW MAXI PROTEC SECA T1 C/A L32P28x9IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0011</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0011</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ALWAYS NOCHE SECA T3 LMPM L32X6IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0012</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0012</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ALWAYS NOCHE SUAVE T3 LMPM L32X6IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0013</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0013</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ALWAYS MAXI PROTEC SECA T1 C/A 8X24IT PE</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0014</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0014</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ARIEL REGULAR PWD 5800GRx3IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0015</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0015</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ARIEL REGULAR PWD 4000GRX4IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0016</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0016</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ARIEL REVITACOLOR PWD 750GRX15IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0017</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0017</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ARIEL TOD POUCH M2 1200MLX8IT EX</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0018</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0018</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ARIEL TOD LIQ M2 2840MLX4IT EXP</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0019</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0019</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ARIEL TOUCH OF DOWNY 2800GRX6IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0020</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0020</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>AYUDIN LIMON Y SABILA 900MLX12IT SRP TSL</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0021</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">7</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0021</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>AYUDIN LIQ LIMON Y SABILA 280MLX12IT&amp;SPG</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0022</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0022</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OLD SPICE DEO SPRAY LENA 96GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0023</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0023</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OLD SPICE DEO SPRAY MAR PROF 96GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0024</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0024</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OLD SPICE DEO SPRAY WOLFTHORN 96GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0025</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0025</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Compl Green D. Explosion 3x66mLX8</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0026</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0026</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>DOWNY AMANECER MX&amp;EXP 1400MLX9IT BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0027</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0027</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Downy Amanecer Mx &amp; Exp 700MLX12IT BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0028</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0028</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Downy Floral 80MLx144IT Blossom</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0029</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0029</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>DOWNY BRISA FRESCA MX&amp;EXP 1400MLX9IT  BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0030</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">7</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0030</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>DOWNY FLORAL MX&amp;EXP 1400MLX9IT BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0031</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0031</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>DOWNY FLORAL MX&amp;EXP 360MLX12IT BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0032</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0032</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>DOWNY FLORAL  Mx &amp; EXP 700MLX12IT BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0033</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0033</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>DOWNY FLORAL  Mx &amp; EXP 700MLX12IT BJ</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0034</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0034</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>FOAMY FOAM MENTHOL  312GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0035</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0035</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>FOAMY FOAM SENSITIVE 312GR</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0036</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0036</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>GILLETTE CL GEL PWRUSH  BDS 82GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0037</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0037</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>GILLETTE AP SPRAY SPORTPEAK 93GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0038</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0038</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Venus Simply 3 8CT HRDC Frevo</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0039</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0039</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>H&amp;S BUNDLE SH375&amp;CN300 LIMP PESPX8IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0040</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0040</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS 2IN1 SUAVE Y MANEJABLE 18MLX300IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0041</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0041</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS 2IN1 SUAVE Y MANEJABLE 650MLX10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0042</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0042</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH Relief 650MLX10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0043</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0043</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH SENSITIVE 650MLX10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0044</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0044</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH SENSITIVE PO CORR 1000MLX9IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0045</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0045</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS CN Coconut 300MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0046</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0046</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH COCONUT PO 650MLx10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0047</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0047</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH COCONUT PO CORR 1000MLx9IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0048</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0048</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH APPLE FRESH 375MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0049</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0049</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS CC MEN 300ML x 12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0050</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0050</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH OLD SPICE 650MLX10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0051</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0051</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS CN Antifall 300MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0052</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0052</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH ANTIFALL  650MLX10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0053</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0053</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH CHARCOAL 375MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0054</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0054</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH CHARCOAL 650MLX10IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0055</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0055</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH CHARCOAL PO CORR 1000MLX9IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0056</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0056</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>HS SH SUAVE Y MANEJABLE 375MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0057</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0057</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Mach3 Base Razor 2UP 557.1</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0058</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0058</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PB3 COOLING 2CT BLISTER (648)</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0059</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0059</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PB3 BODYSENSE 2CT (648)</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0060</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0060</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PB3 REGULAR 2CT BLISTER (648)</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0061</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0061</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PB3 REGULAR 4CT BLISTER (648)</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0062</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0062</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OLD SPICE DEO SPRAY PURESPORT 96GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0063</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0063</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OLD SPICE DEO SPRAY VIP 96GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0064</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0064</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Oral B 3DW 53ml 70g x24IT SRP</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0065</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0065</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Oral B 3DW 2x75ml 100g x12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0066</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0066</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ORAL B 100 2x100ml 130gx12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0067</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0067</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ORAL B 100 120ml 150g X 24IT SRP</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0068</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0068</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>ORAL B 100 55ml 70gx24IT SRP</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0069</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0069</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Oral B 123 Anticavity 50mlx24IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0070</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0070</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB OM138 123 35M 1CT LA</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0071</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0071</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Comp Limp Prof 40S 3Pack LA</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0072</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0072</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Ind Control Bac 40S 3x36IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0073</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0073</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Complete Blue 4in1 50ml/60gX24IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0074</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0074</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Complete 4in1 3x66ml/80gx8IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0075</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0075</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Complete 4in1 115ml/140gX24IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0076</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0076</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Kids EMKB Mickey Sft 3yr 1x36LA</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0077</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0077</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB OM010 Color Indic Clasico 35S 4Ux36IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0078</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0078</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Kids Minnie 50gr / 37ml X24IT LA RoLA</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0079</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0079</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PAMPERS CONFORTSEC XGD 68PADSX02IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0080</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0080</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PAMPERS CONFORTSEC XXG 60PADSX02IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0081</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0081</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE DUALSAC RIZO 2IN1CC 27MLX15X12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0082</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0082</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PTN 3MM PROV PEARLS HIDR EXT 170mlX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0083</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0083</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PTN 3MM PROV PEARLS RESTAURA 170mlX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0084</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0084</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE 2IN1 CUIDADO CLASICO 1000MLX9IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0085</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0085</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE CN COLAGENO 510MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0086</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0086</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE CC COLAGENO 300MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0087</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0087</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PTN TRT Hydration 300MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0088</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0088</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PTN TRT Reconstruct 300MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0089</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0089</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE SH RESTAURACION 400MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0090</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0090</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE SH CONTROL CAIDA 400MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0091</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0091</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB Kids Mickey 50gr / 37ml X24IT RoLA</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0092</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0092</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OB PH Stages Mix Case LA 75ml</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0093</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0093</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PRO DOBLE ACCION MAYOR ALCAN 60M 3x36IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0094</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0094</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PRO DOBLE ACCION PROFILE1000 60H 2x36IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0095</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0095</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>Mach3 Base Cart 2CT 557.1</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0096</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0096</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE DUAL SACH SUMM SHCN 27MLX15X12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0097</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0097</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>PANTENE 2IN1 RESTAURACION 700MLX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+    <cac:DespatchLine>
+        <cbc:ID>0098</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="CS" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>0098</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description>OLD SPICE AP SPRAY WOLFTHORN 93GRX12IT</cbc:Description>
+            <cac:AdditionalItemProperty>
+                <cbc:Name>Indicador de bien normalizado</cbc:Name>
+                <cbc:NameCode listAgencyName="PE:SUNAT" listName="Propiedad del item" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo55">7022</cbc:NameCode>
+                <cbc:Value>0</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+    </cac:DespatchLine>
+</DespatchAdvice>

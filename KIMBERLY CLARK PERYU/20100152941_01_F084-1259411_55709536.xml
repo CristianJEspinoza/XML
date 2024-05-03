@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SF084-1259411-240425225105"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>f4k/GwvK+krjdghVrfPN3BWgTwg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FcJT+ZMfP9cCzAPbULfKgpR7PG+2B9yv0WruEAGyuywJWCzi0tQC8cVUvYaYpruJxNgWEzzQVhqK
+ykoA9qsa9MGpwtONZzNn6BwbPi9soSEm3MUV7MJ+2IrfchaOj6I4of7JuNWJT3warnTSVxaMct08
+sPQk8uneuCP/WLVJs20hN8eL+HvWVKemAMbEefiFZJ7Tog5hkYN9qjqEB0sH1hHa9/pPS0CYn5++
+Icz3l6NhK6MJYKBgKHoDPbnN61nLy7h6G2+6xE3GLEg9kOvzTaK5nAYbesSvCxpMwmRhffILIjgC
+/EHarlgZ1Hca5l/aNsHpcjWGzQu/araUwb5XXA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFkTCCBHmgAwIBAgIIfDeWpHkzIn0wDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEu
+cGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcN
+MjQwMTEwMjIwMjE5WhcNMjUwMTA5MjIwMjAwWjCCATExRTBDBgNVBAkMPEFWLiBQQVNFTyBERSBM
+QSBSRVBVQkxJQ0EgTlJPLiA1ODk1IElOVC4gMzAxIFVSQi4gTUlSQUZMT1JFUzEoMCYGCSqGSIb3
+DQEJARYZbGlsaWFuYS5uLm1lbmRvemFAa2NjLmNvbTEsMCoGA1UEAwwjU09GVFdBUkUgREUgRkFD
+VFVSQUNJT04gRUxFQ1RST05JQ0ExLDAqBgNVBAsMI0ZBQ1RVUkEgRUxFQ1RST05JQ0EgUlVDIDIw
+MTAwMTUyOTQxMSEwHwYDVQQLDBhWYWxpZGFkbyBwb3IgTGxhbWEucGUgRVIxIzAhBgNVBAoMGktJ
+TUJFUkxZLUNMQVJLIFBFUlUgUy5SLkwuMQ0wCwYDVQQHDARMSU1BMQswCQYDVQQGEwJQRTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJw2tgBvW9CbrNY2RztfyzlmCzXtjV3W3l5RXao9
+l+uHaYODaW5f/9lQV6BlVwFVvQp0EzvQ+0EsFH3HMjtU58NYbSGUYYCY7hv38TciDADKM4MoW+9i
+MlMl6qCALlD9bh2DwsRd0gCTpQiTc/BSrxmCAjlkZSf9TwplXLRiLV+VMh0WbmgDCa7z0yHnXOIn
+W3bQcNwkGT48RrXWJYhDty8SuvIvOA36ZiRYvg/8g7mgilmbd745XpHiLg1Mpvl5WGpsN+OSEXoO
+iwSIa74BtWtxZ2UmJyWfkr66DoH1R9uvJuuMOIMKBBpEZUM9soHwiuV6QyWJA3xqUg9zjZE026UC
+AwEAAaOCAZQwggGQMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUXYhbretl+/5oouTZbz1XcqLv
+K5kwZwYIKwYBBQUHAQEEWzBZMDUGCCsGAQUFBzAChilodHRwOi8vY3J0LmxsYW1hLnBlL2xsYW1h
+cGVzdGFuZGFyZGNhLmNlcjAgBggrBgEFBQcwAYYUaHR0cDovL29jc3AubGxhbWEucGUwJAYDVR0R
+BB0wG4EZbGlsaWFuYS5uLm1lbmRvemFAa2NjLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEA
+AwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAU
+BggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5w
+ZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFJzxB0fyaOfTZm750UjtJ13PDmnGMA4G
+A1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAG5AAoUsZt2O61aEhrwfgyULj56p3c5od
+LGmTHaUnk95Bx38mbSGOLz+H35QjM3bvwsItLLgIOnRHX5a7aMxCKQJGZlLn+OiMWksc5IJoRH1y
+wQ3jJc5MKrjfdi7kkiDssucwZNtNQxGIAz9z67QIyJo5XHuDnvHZusWDvALTgMHj2mbpD1y5ezP/
+vtQtwzr2PdQnuXwEp2swH8MSVnk8vYcYNwvARBOoK0XwgLuZBtvWmyKllr86dHrjAF1Q08YZluVQ
+iOQemYoE041r5XhazdHcJPjjoC9Q+P0i1DjW8SLrEuAB0BRjxQ0Kfyy4vQZYvOpXTY6EVpGq9kE5
+w2LeMg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="CorreoCliente"><![CDATA[milagros.aguilar@terranovatrading.com.pe]]></Text>
+    <Text name="PagWeb"><![CDATA[http://asp403r.paperless.com.pe/BoletaKimberlyClark]]></Text>
+    <Text name="TipoDocRecep"><![CDATA[RUC]]></Text>
+    <Text name="Etiqueta1"><![CDATA[NUM INTERNO:]]></Text>
+    <Text name="Valor1"><![CDATA[841259411]]></Text>
+    <Text name="Etiqueta2"><![CDATA[ASIENTO CONTABLE:]]></Text>
+    <Text name="Valor2"><![CDATA[6653522]]></Text>
+    <Text name="Etiqueta3"><![CDATA[FECHA DE ENTREGA:]]></Text>
+    <Text name="Valor3"><![CDATA[2024-04-29 00:00]]></Text>
+    <Text name="Etiqueta4"><![CDATA[REP. DE VENTAS:]]></Text>
+    <Text name="Valor4"><![CDATA[JULIOS MATHEUS /]]></Text>
+    <Text name="Etiqueta5"><![CDATA[ORDEN DE COMPRA:]]></Text>
+    <Text name="Valor5"><![CDATA[]]></Text>
+    <Text name="Etiqueta6"><![CDATA[FECHA:]]></Text>
+    <Text name="Valor6"><![CDATA[2024-04-19]]></Text>
+    <Text name="Etiqueta7"><![CDATA[NUM. PEDIDO:]]></Text>
+    <Text name="Valor7"><![CDATA[754074100]]></Text>
+    <Text name="Etiqueta8"><![CDATA[CONDICIONES DE PAGO:]]></Text>
+    <Text name="Valor8"><![CDATA[100 % Pago Anticipado]]></Text>
+    <Text name="Etiqueta9"><![CDATA[GUÍA DE REMISIÓN REMITENTE: N°]]></Text>
+    <Text name="Etiqueta10"><![CDATA[EMBARQUE]]></Text>
+    <Text name="Valor10"><![CDATA[53301504]]></Text>
+    <Text name="Etiqueta11"><![CDATA[EMPRESA]]></Text>
+    <Text name="Valor11"><![CDATA[TERRANOVA TRADING  - HUARAZ 3]]></Text>
+    <Text name="Etiqueta12"><![CDATA[DIRECCION]]></Text>
+    <Text name="Valor12"><![CDATA[JR. JOSE DE SUCRE NRO. 959 BR SA N FRANCISC HUARAZ HUARAZ]]></Text>
+    <Text name="Etiqueta13"><![CDATA[VOLUMEN]]></Text>
+    <Text name="Valor13"><![CDATA[15523.43 CD3]]></Text>
+    <Text name="Etiqueta14"><![CDATA[INCOTERM]]></Text>
+    <Text name="Valor14"><![CDATA[-]]></Text>
+    <Text name="Valor15"><![CDATA[]]></Text>
+    <Text name="TelRecep"><![CDATA[TEL:]]></Text>
+    <Text name="FecFactura"><![CDATA[2024-04-19]]></Text>
+    <Text name="FecVenc"><![CDATA[2024-04-25]]></Text>
+    <Text name="ValorIGV"><![CDATA[%18.00]]></Text>
+    <Text name="Motivo"><![CDATA[Venta]]></Text>
+    <Text name="RazSocTransp"><![CDATA[SILVERA CARGO S.A.C.]]></Text>
+    <Text name="DirTransp"><![CDATA[URB. MAYORAZGO 3RA LA PRE DE,]]></Text>
+    <Text name="RucTransp"><![CDATA[20609866366]]></Text>
+    <Text name="CodCliente"><![CDATA[40188903]]></Text>
+    <Text name="NombreArchivo"><![CDATA[20100152941_01_F084-01259411_20240425.txt]]></Text>
+    <Text name="PPLOrigen"><![CDATA[SHF]]></Text>
+    <Section name="MensajesAt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[Incluye descuento financiero de 2.00% ( 186.61 )]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[LÉASE CUANDO APLIQUE: PK= PAQUETES, TNE= TONELADAS CJ= CAJAS NIU=UNIDAD]]></Value>
+        </Detail>
+    </Section>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>F084-1259411</cbc:ID>
+<cbc:IssueDate>2024-04-25</cbc:IssueDate>
+<cbc:IssueTime>03:46:53</cbc:IssueTime>
+<cbc:DueDate>2024-04-25</cbc:DueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:Note languageLocaleID="1000"><![CDATA[DIEZ MIL SETECIENTOS OCHENTA Y NUEVE Y 33/100 SOLES]]></cbc:Note>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SF084-1259411</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20100152941</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SF084-1259411-240425225105</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20100152941</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[Kimberly-Clark Peru S.R.L]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[Kimberly-Clark Peru S.R.L]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[150122]]></cbc:ID>
+<cbc:AddressTypeCode>0010</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[MIRAFLORES]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[AV. PASEO DE LA REPUBLICA NRO.5895 INT. 301 URB. MIRAFLORES]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20609699982</cbc:ID>
+</cac:PartyIdentification>
+<cac:PostalAddress>
+<cbc:District><![CDATA[]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[JR SIMON BOLIVAR 993 HUARAZ - HUARAZ - HUARAZ]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[TERRANOVA TRADING SAC]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[]]></cbc:ID>
+<cac:AddressLine>
+<cbc:Line><![CDATA[JR SIMON BOLIVAR 993 HUARAZ - HUARAZ - HUARAZ]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:BuyerCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20609699982</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">1645.83</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">9143.50</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">1645.83</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">9143.50</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">1645.83</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">10789.33</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="PEN">10789.33</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">80.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">1927.20</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">28.4262</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.07807</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">163.20</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">2090.40</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">346.91</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">1927.20</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">346.91</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE RESISTEMAX 2P 1X48]]></cbc:Description>
+<cbc:Description><![CDATA[7.81]]></cbc:Description>
+<cbc:Description><![CDATA[2274.10]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242401</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">26.13</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">1.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">129.58</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">152.9044</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.16227</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">25.10</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">154.68</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">23.32</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">129.58</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">23.32</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[TC SCOTT DURAMAX 1P RR 12X1X116 IRONMAN]]></cbc:Description>
+<cbc:Description><![CDATA[16.23]]></cbc:Description>
+<cbc:Description><![CDATA[152.90]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30240456</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111703</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">154.68</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">6.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">66.24</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">13.0272</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.40773</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">45.60</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">111.84</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">11.92</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">66.24</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">11.92</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE RESISTEMAX 2P 10X2]]></cbc:Description>
+<cbc:Description><![CDATA[40.77]]></cbc:Description>
+<cbc:Description><![CDATA[78.16]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242372</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">18.64</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>4</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">15.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">241.50</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">18.998</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.24342</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">77.70</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">319.20</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">43.47</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">241.50</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">43.47</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[SERV SCOTT 6X100 DOB 4 SUPER ABSORB BO]]></cbc:Description>
+<cbc:Description><![CDATA[24.34]]></cbc:Description>
+<cbc:Description><![CDATA[284.97]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30228047</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111705</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">21.28</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>5</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">20.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">1102.60</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">65.0534</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.01991</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">22.40</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">1125.00</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">198.47</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">1102.60</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">198.47</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE PREM 3P 2X24]]></cbc:Description>
+<cbc:Description><![CDATA[1.99]]></cbc:Description>
+<cbc:Description><![CDATA[1301.07]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242887</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">56.25</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>6</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">1.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">89.69</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">105.8342</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.1895</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">20.97</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">110.66</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">16.14</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">89.69</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">16.14</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[FAC KLEENEX ORIG POCKET 36X4 X10 BIG]]></cbc:Description>
+<cbc:Description><![CDATA[18.95]]></cbc:Description>
+<cbc:Description><![CDATA[105.83]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30220612</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111701</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">110.66</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>7</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">4.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">64.36</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">18.9862</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.30407</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">28.12</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">92.48</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">11.58</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">64.36</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">11.58</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE CUIDADO COMPLETO 2P 10X2X200 DV]]></cbc:Description>
+<cbc:Description><![CDATA[30.41]]></cbc:Description>
+<cbc:Description><![CDATA[75.94]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30241875</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">23.12</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>8</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">10.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">182.30</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">21.5114</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.47765</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">166.70</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">349.00</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">32.81</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">182.30</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">32.81</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[TC SCOTT MULTIUS 12X1X110 (PEBO)]]></cbc:Description>
+<cbc:Description><![CDATA[47.77]]></cbc:Description>
+<cbc:Description><![CDATA[215.11]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242706</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111703</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">34.90</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>9</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">50.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">1129.00</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">26.6444</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.03173</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">37.00</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">1166.00</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">203.22</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">1129.00</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">203.22</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE RESISTEMAX 2P 1X40]]></cbc:Description>
+<cbc:Description><![CDATA[3.17]]></cbc:Description>
+<cbc:Description><![CDATA[1332.22]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242400</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">23.32</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">5.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">142.75</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">33.689</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.01991</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">2.90</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">145.65</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">25.70</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">142.75</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">25.70</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE PREM 3P 2X12]]></cbc:Description>
+<cbc:Description><![CDATA[1.99]]></cbc:Description>
+<cbc:Description><![CDATA[168.45]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242888</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">29.13</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>11</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">10.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">278.60</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">32.8748</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.02005</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">5.70</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">284.30</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">50.15</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">278.60</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">50.15</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE ESENCIAS 2P 1X32]]></cbc:Description>
+<cbc:Description><![CDATA[2.00]]></cbc:Description>
+<cbc:Description><![CDATA[328.75]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242912</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">28.43</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>12</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">30.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">563.40</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">22.1604</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.40962</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">390.90</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">954.30</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">101.41</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">563.40</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">101.41</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[TC SCOTT MULTIUS 6X2X110 PEBO]]></cbc:Description>
+<cbc:Description><![CDATA[40.96]]></cbc:Description>
+<cbc:Description><![CDATA[664.81]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242579</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111703</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">31.81</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>13</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">4.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">113.08</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">33.3586</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.0201</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">2.32</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">115.40</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">20.35</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">113.08</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">20.35</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[TC SCOTT MULTIUS 2X6X110 PEBO]]></cbc:Description>
+<cbc:Description><![CDATA[2.01]]></cbc:Description>
+<cbc:Description><![CDATA[133.43]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30242547</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111703</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">28.85</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>14</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">22.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">626.12</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">33.5828</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.12699</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">91.08</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">717.20</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">112.70</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">626.12</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">112.70</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE RINDEM 2P 6X4 40M PZ]]></cbc:Description>
+<cbc:Description><![CDATA[12.70]]></cbc:Description>
+<cbc:Description><![CDATA[738.82]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30245536</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">32.60</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">12.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">375.48</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">36.9222</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.28643</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">150.72</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">526.20</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">67.59</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">375.48</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">67.59</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE CUID COMP 2P 12X4 X22M]]></cbc:Description>
+<cbc:Description><![CDATA[28.64]]></cbc:Description>
+<cbc:Description><![CDATA[443.07]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30244882</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">43.85</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>16</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">30.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">948.90</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">37.3234</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.02014</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">19.50</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">968.40</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">170.80</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">948.90</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">170.80</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE CUID COMP 2P 1X40 X21M]]></cbc:Description>
+<cbc:Description><![CDATA[2.01]]></cbc:Description>
+<cbc:Description><![CDATA[1119.70]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30245304</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">32.28</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>17</cbc:ID>
+<cbc:InvoicedQuantity unitCode="CJ">35.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">1162.70</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">39.1996</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.0432</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">52.50</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">1215.20</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">209.29</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">1162.70</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">209.29</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PH SUAVE CUID COMP 2P 1X48 X21M]]></cbc:Description>
+<cbc:Description><![CDATA[4.32]]></cbc:Description>
+<cbc:Description><![CDATA[1371.99]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>30245287</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:OriginCountry>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:OriginCountry>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>14111704</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">34.72</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

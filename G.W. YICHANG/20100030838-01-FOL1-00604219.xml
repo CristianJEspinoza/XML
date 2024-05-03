@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <!--2 Firma Digital//-->
+    <!-- Inicio Firma Digital//-->
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+      <ds:Signature Id="IdSignNet"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sq/XX7l0Q7DwAhTW3jHm65JYeK8=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">m0pgOFJJjz+vkRf2nQyQw73ZHtzMLQ4BZ5pInkXTWLJ7t7rOA2G4sW1ViFqEXPRSF1PAnbU1RWN/XZb8bLzSD7WnRrGI9xOqP7UbapROl94A+lRf5ASiOrACEFZWU8+Dk5CLdHCBwgHhHNyqOpAN+soO40h51j3v1pRQpZq+UUP5zMOdMsA9LlBkS5s7M+JpRnYEmdrf3ltyhFK4Ncrm5qAU0Ij16FOf5rclvLUGVEFv1CrcMRItn/EHsGEh4FaTJw00hyTvdUCOf4psnZifc879uT2AByWUZYYp6G0wg2upUi5EABoRlNRGZQ+pP9LDisPcNtu2HnD6FwifdjACZA==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+    <!-- Fin Firma Digital//-->
+    <!-- variables adicionales//-->
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <DatosAdicionales>
+          <DatoAdicional>
+            <Codigo>01</Codigo>
+            <Valor><![CDATA[0009034520]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>02</Codigo>
+            <Valor><![CDATA[0077322160]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>03</Codigo>
+            <Valor><![CDATA[0024187352]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>05</Codigo>
+            <Valor><![CDATA[427]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>06</Codigo>
+            <Valor><![CDATA[0000178269]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>07</Codigo>
+            <Valor><![CDATA[449]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>08</Codigo>
+            <Valor><![CDATA[YICHANG PAGA FLETE]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>09</Codigo>
+            <Valor><![CDATA[CONTADO]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>0153</Codigo>
+            <Valor><![CDATA[terranova.trading2022@gmail.com ; comprobantes.electronicos@terranovatrading.com.pe]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>0154</Codigo>
+            <Valor><![CDATA[DORIS_JOAQUIN@YICHANG.COM.PE]]></Valor>
+          </DatoAdicional>
+          <DatoAdicional>
+            <Codigo>15</Codigo>
+            <Valor><![CDATA[1]]></Valor>
+          </DatoAdicional>
+        </DatosAdicionales>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+  <cbc:ProfileID schemeName="SUNAT:Identificador de Tipo de Operación" schemeAgencyName="PE:SUNAT" schemeURI=" urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo17">0101</cbc:ProfileID>
+  <cbc:ID>FOL1-00604219</cbc:ID>
+  <cbc:IssueDate>2024-04-29</cbc:IssueDate>
+  <cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[MIL OCHOCIENTOS TREINTA Y NUEVE CON 97/100]]></cbc:Note>
+  <!--31 Leyendas - Catálogo No. 15//-->
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode>
+  <!-- Cantidad de detalle//-->
+  <cbc:LineCountNumeric>3</cbc:LineCountNumeric>
+  <!-- Orden de compra//-->
+  <cac:OrderReference>
+    <cbc:ID><![CDATA[01-SVR-2990721]]></cbc:ID>
+  </cac:OrderReference>
+  <!-- Inicio de Referencia de la Firma Digital//-->
+  <cac:Signature>
+    <cbc:ID>IDSign20100030838</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20100030838</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[G. W. YICHANG & CIA. S.A.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signature20100030838</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100030838</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[G. W. YICHANG & CIA. S.A.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[G. W. YICHANG & CIA. S.A.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">150130</cbc:ID>
+          <cbc:AddressTypeCode listName="Establecimientos anexos" listAgencyName="PE:SUNAT">0000</cbc:AddressTypeCode>
+          <!--urbanizacion//-->
+          <!--provincia //-->
+          <cbc:CityName>LIMA</cbc:CityName>
+          <!--Departamento //-->
+          <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+          <!--distrito //-->
+          <cbc:District>SAN ISIDRO</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line>JR. CARLOS NEUHAUS RIZO PATRON NRO. 125 URB. CORPAC</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode listName="Country" listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1">PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20609699982</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[TERRANOVA TRADING S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cac:AddressLine>
+            <cbc:Line>JR. SIMÓN BOLIVAR NRO. 993-HUARAZ</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode listName="Country" listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1">PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">280.67</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">1559.30</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">280.67</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">E</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153">9997</cbc:ID>
+          <cbc:Name>EXO</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">O</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153">9998</cbc:ID>
+          <cbc:Name>INA</cbc:Name>
+          <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">Z</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153">9996</cbc:ID>
+          <cbc:Name>GRA</cbc:Name>
+          <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">1559.30</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">1839.97</cbc:TaxInclusiveAmount>
+    <!--27 Importe total de la venta, cesión en uso o del servicio prestado//-->
+    <cbc:PayableAmount currencyID="PEN">1839.97</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>001</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="BX" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">3.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">917.46</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">360.87</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+      <cbc:Amount currencyID="PEN">189.54</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">165.14</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">917.46</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">165.14</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeID="UN/ECE 5153">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[COLG CREM TRIP ACCI  6/12/75ML]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[16634]]></cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">53131600</cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">369.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>002</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="BX" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">253.89</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">299.59</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+      <cbc:Amount currencyID="PEN">30.39</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">45.70</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">253.89</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">45.70</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeID="UN/ECE 5153">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[COLG CREM TRIP ACCI 12/12/22ML PEQ]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[25588]]></cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">53131600</cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">283.68</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>003</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="BX" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">4.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">387.95</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">114.45</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+      <cbc:Amount currencyID="PEN">46.45</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">69.83</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">387.95</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">69.83</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeID="UN/ECE 5153">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[COLG CREM HERBAL BLANQ 90GR/12/48]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[418032]]></cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">53131600</cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">108.48</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>
